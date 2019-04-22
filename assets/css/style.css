@@ -1,33 +1,42 @@
- * {
+* {
    box-sizing: border-box;
    text-align: center;
- }
+   color: #777777;
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 
- body {
+body {
    font-size: 24px;
    line-height: 32px;
    color: #333;
- }
+}
 
- header {
+header {
    padding: 20px;
    margin-bottom: 20px;
    color: #333;
-   background: #FFA500;
- }
+   background: #ffffff;
+}
 
- .name {}
+.main-header {
+  background-color: #ffffff;
 
- h1 {
-   color: blue;
- }
+}
 
- li {}
+h1 {
+   color: #4aaaa5;
+}
 
- a {}
+li {
+  list-style-type: none;
+}
 
- footer {
+a {
+  text-decoration: none;
+}
+
+footer {
    padding: 20px;
    clear: both;
-   background: #FFA500;
- }
+   background: #666666;
+}
