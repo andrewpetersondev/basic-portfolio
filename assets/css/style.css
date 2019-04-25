@@ -7,6 +7,10 @@ body {
   color: #777777;
 }
 
+/* #entire-site-wrapper {
+  background-color: blue;
+} */
+
 /* header {
   padding: 20px;
   margin-bottom: 20px;
@@ -19,7 +23,7 @@ body {
   border-color: #cccccc;
   /* border-bottom: 5px solid #cccccc; */
   width: 960px;
-  /* margin: 0 auto;  */
+  margin: 0 auto; 
   /* text-align: center; */
 }
 
@@ -37,6 +41,7 @@ h1 {
 
 nav {
   display: inline-block;
+  /* float: right; */
 }
 
 li {
@@ -49,15 +54,19 @@ li {
 
 a {
   text-decoration: none;
-  /* color: #333; */
+  color: #333;
 }
 
 main {
-  background-color: #ffffff;
+  /* background-color: red; */
   border-color: #dddddd;
   border-top: 5px solid #dddddd;
+  background-image: url("/basic-portfolio/assets/images/floor-tile.png");
+}
+
+#about-me {
   width: 960px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
 h2 {
@@ -65,10 +74,16 @@ h2 {
   font-size: 24px;
 }
 
-img {
+#bio-image {
+  height: 200px;
+  width: 200px;
   float: left;
-  /* margin-right: 30px; */
 }
+
+/* img {
+  float: left;
+  margin-right: 30px;
+} */
 
 #paragraph-2, #paragraph-3 {
   clear: both;
