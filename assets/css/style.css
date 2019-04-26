@@ -44,6 +44,22 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-size: 24px;
+  color: #4aaaa5;
+  padding: 20px;
+  /* border-bottom: 5px solid #dddddd; */
+}
+
+h3 {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-size: 22px;
+  color: #ffffff;
+  background-color: #4aaaa5;
+  /* padding: 20px; */
+}
+
 nav {
   /* display: inline-block; */
   /* position: relative; */
@@ -69,7 +85,7 @@ main {
   border-top: 5px solid #dddddd;
 }
 
-#about-me {
+#about-me, #contact, #portfolio {
   width: 960px;
   margin: 0 auto;
   background-color: #ffffff;
@@ -77,19 +93,11 @@ main {
   /* margin-bottom: 60px; */
 }
 
-h2 {
-  font-family: 'Georgia', Times, 'Times New Roman', serif;
-  font-size: 24px;
-  color: #4aaaa5;
-  padding: 20px;
-  /* border-bottom: 5px solid #dddddd; */
-}
-
 hr {
   width: 95%;
 }
 
-.photo-and-description {
+.page-content {
   /* border-top: 5px solid #dddddd; */
   padding: 20px;
 }

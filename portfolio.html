@@ -6,31 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <!-- Header -->
-    <!-- <section> -->
-        <header class="site-header">
-            <!-- H1 -->
-            <h1>Andrew Peterson</h1>
-            <!-- Nav -->
-            <nav>
-                <ul>
-                    <li><a href="index.html">About Me</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-    <!-- </section> -->
-    <!-- Main Content -->
-    <main>
-        <header>
-            <h2>Portfolio</h2>
-        </header>
-    </main>
+
+    <!-- wrapper for sticky footer -->
+    <div class="wrapper">
+        <!-- site header container -->
+        <div class="site-header-container">
+            <!-- Site Header -->
+            <header class="site-header">
+                <!-- H1 -->
+                <h1>Andrew Peterson</h1>
+                <!-- Nav -->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <!-- Main Content -->
+        <main>
+            <section id="portfolio">
+                <header>
+                    <h2>Portfolio</h2>
+                </header>
+
+                <hr>
+
+                <div class="page-content">
+                    <div class="portfolio-content">
+                        <div class="project">
+                            <img class="project-image" src="assets/images/abstract-q-c-200-200-9.jpg" alt="Hangman">
+                            <h3>Hangman</h3>
+                        </div>
+                        <div class="project">
+                            <img class="project-image" src="assets/images/abstract-q-c-200-200-9.jpg" alt="Trivia Game">
+                            <h3>Trivia Game</h3>
+                        </div>
+                        <div class="project">
+                            <img class="project-image" src="assets/images/abstract-q-c-200-200-9.jpg" alt="Rock Paper Scissors">
+                            <h3>Rock Paper Scissors</h3>
+                        </div>
+                        <div class="project">
+                            <img class="project-image" src="assets/images/abstract-q-c-200-200-9.jpg" alt="RPG Game">
+                            <h3>RPG Game</h3>
+                        </div>
+                        <div class="project">
+                            <img class="project-image" src="assets/images/abstract-q-c-200-200-9.jpg" alt="Rutgers Info Widget">
+                            <h3>Rutgers Info Widget</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <!-- div for sticky footer according to css tricks -->
+        <div class="push"></div>
+        <!-- div closing wrapper for sticky footer -->
+    </div>
 
     <!-- Footer -->
     <footer>
