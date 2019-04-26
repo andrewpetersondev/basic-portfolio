@@ -2,7 +2,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
 }
@@ -12,6 +13,8 @@ body {
   color: #777777;
   line-height: 150%;
   font-size: 18px;
+  background-image: url("/basic-portfolio/assets/images/floor-tile.png");
+
 }
 
 .wrapper {
@@ -19,12 +22,15 @@ body {
   margin-bottom: -50px;
 }
 
+.site-header-container {
+  background-color: #ffffff;
+}
+
 .site-header {
   background-color: #ffffff;
   border-color: #cccccc;
-  /* border-bottom: 5px solid #cccccc; */
   width: 960px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 h1 {
@@ -36,7 +42,6 @@ h1 {
   text-align: center;
   display: inline-block;
   margin: 0;
-
 }
 
 nav {
@@ -49,7 +54,7 @@ nav {
 
 li {
   list-style-type: none;
-  margin: 0; 
+  margin: 0;
   padding: 0;
   display: inline-block;
 }
@@ -60,10 +65,8 @@ a {
 }
 
 main {
-  /* background-color: red; */
   border-color: #dddddd;
   border-top: 5px solid #dddddd;
-  background-image: url("/basic-portfolio/assets/images/floor-tile.png");
 }
 
 #about-me {
@@ -77,13 +80,17 @@ main {
 h2 {
   font-family: 'Georgia', Times, 'Times New Roman', serif;
   font-size: 24px;
-  color: #4aaaa5; 
+  color: #4aaaa5;
   padding: 20px;
   /* border-bottom: 5px solid #dddddd; */
 }
 
+hr {
+  width: 95%;
+}
+
 .photo-and-description {
-  border-top: 5px solid #dddddd;
+  /* border-top: 5px solid #dddddd; */
   padding: 20px;
 }
 
@@ -95,22 +102,19 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* img {
-  float: left;
-  margin-right: 30px;
-} */
-
-#paragraph-2, #paragraph-3 {
+#paragraph-2,
+#paragraph-3 {
   clear: both;
 }
 
-footer, .push {
+footer,
+.push {
   height: 50px;
 }
 
 footer {
   padding: 20px;
-  clear: both;
+  /* clear: both; */
   background-color: #666666;
   border-top: 8px solid #4aaaa5;
   text-align: center;
