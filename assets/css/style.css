@@ -136,6 +136,12 @@ button {
 
 /* contact form  */
 
+/* portfolio */
+table {
+  width: 100%;
+}
+
+/* footer */
 footer,
 .push {
   height: 50px;
@@ -150,3 +156,5 @@ footer {
   position: sticky;
   bottom: 0;
 }
+
+/* footer */
