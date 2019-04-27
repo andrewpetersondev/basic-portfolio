@@ -52,13 +52,6 @@ h2 {
   /* border-bottom: 5px solid #dddddd; */
 }
 
-h3 {
-  font-family: 'Georgia', Times, 'Times New Roman', serif;
-  color: #ffffff;
-  background-color: #4aaaa5;
-  /* padding: 20px; */
-}
-
 nav {
   /* display: inline-block; */
   /* position: relative; */
@@ -140,6 +133,27 @@ button {
 table {
   width: 100%;
 }
+
+.portfolio-image-container {
+  position: relative;
+
+}
+
+h3 {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  color: #ffffff;
+  background-color: #4aaaa5;
+  /* padding: 20px; */
+  /* z-index: 2; */
+  width: 100%;
+  position: absolute;
+  top: 70%;
+  /* bottom: 10px; */
+}
+
+
+/* portfolio */
+
 
 /* footer */
 footer,
