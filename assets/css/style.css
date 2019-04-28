@@ -184,13 +184,16 @@ footer,
 }
 
 footer {
-  padding: 20px;
+  height: 50px;
+  padding: 25px;
   /* clear: both; */
   background-color: #666666;
   border-top: 8px solid #4aaaa5;
   text-align: center;
   position: sticky;
   bottom: 0;
+  color: #ffffff;
+  font-size: 12px;
 }
 
 /* footer */
