@@ -110,6 +110,7 @@ hr {
 }
 
 /* contact form  */
+
 textarea {
   width: 100%;
 }
@@ -130,16 +131,21 @@ button {
 /* contact form  */
 
 /* portfolio */
+
 table {
   width: 100%;
+  /* border-spacing: 30px 50px; */
+  /* empty-cells: hide; */
+  table-layout: auto;
 }
-td {
-  width: 250px;
-}
+/* td {
+  width: 210px;
+} */
 
 .portfolio-image-container {
   position: relative;
-  width: 220px;
+  width: 200px;
+  /* height: 150px; */
 
 }
 
@@ -151,8 +157,9 @@ h3 {
   /* z-index: 2; */
   width: 100%;
   position: absolute;
-  top: 70%;
-  /* bottom: 10px; */
+  top: 80%;
+  /* bottom: 20px; */
+  text-align: center;
 }
 
 
@@ -160,6 +167,7 @@ h3 {
 
 
 /* footer */
+
 footer,
 .push {
   height: 50px;
