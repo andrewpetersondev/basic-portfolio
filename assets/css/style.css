@@ -142,10 +142,15 @@ table {
   width: 210px;
 } */
 
+img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
 .portfolio-image-container {
   position: relative;
   width: 200px;
-  /* height: 150px; */
+  height: 200px;
 
 }
 
