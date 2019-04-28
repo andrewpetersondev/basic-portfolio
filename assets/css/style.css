@@ -22,15 +22,9 @@ body {
   margin-bottom: -50px;
 }
 
-/* .site-header-container {
-  background-color: #ffffff;
-} */
-
 .site-header {
   background-color: #ffffff;
   border-color: #cccccc;
-  /* width: 960px; */
-  /* margin: 0 auto; */
 }
 
 .site-header-container {
