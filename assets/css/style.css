@@ -133,9 +133,13 @@ button {
 table {
   width: 100%;
 }
+td {
+  width: 250px;
+}
 
 .portfolio-image-container {
   position: relative;
+  width: 220px;
 
 }
 
