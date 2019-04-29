@@ -1,3 +1,5 @@
+/* general */
+
 * {
   box-sizing: border-box;
 }
@@ -17,12 +19,15 @@ body {
 
 }
 
+
 .wrapper {
   min-height: 100%;
   margin-bottom: -50px;
 }
 
-.site-header {
+/* header */
+
+#site-header {
   background-color: #ffffff;
   border-color: #cccccc;
 }
@@ -43,14 +48,6 @@ h1 {
   margin: 0;
 }
 
-h2 {
-  font-family: 'Georgia', Times, 'Times New Roman', serif;
-  font-size: 24px;
-  color: #4aaaa5;
-  padding: 20px;
-  /* border-bottom: 5px solid #dddddd; */
-}
-
 nav {
   /* display: inline-block; */
   /* position: relative; */
@@ -59,26 +56,27 @@ nav {
   margin-left: 30px;
 }
 
-li {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-}
-
 a {
   text-decoration: none;
   color: #333;
 }
+
+/* main */
 
 main {
   border-color: #dddddd;
   border-top: 5px solid #dddddd;
 }
 
-#about-me,
-#contact,
-#portfolio {
+h2 {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-size: 24px;
+  color: #4aaaa5;
+  padding: 20px;
+  /* border-bottom: 5px solid #dddddd; */
+}
+
+.main-section {
   width: 960px;
   margin: 0 auto;
   background-color: #ffffff;
@@ -189,5 +187,3 @@ footer {
   color: #ffffff;
   font-size: 12px;
 }
-
-/* footer */

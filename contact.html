@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
+    <title>Contact | Andrew Peterson</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <!-- Site Header -->
-    <header class="site-header">
-        <div class="site-header-container">
+    <header id="site-header">
+        <div class="site-header-container container">
             <!-- name logo button -->
             <a href="index.html" id="logo">
                 <h1>Andrew Peterson</h1>
@@ -26,44 +26,36 @@
         </div>
     </header>
 
-    <!-- wrapper for sticky footer -->
-    <div class="wrapper">
+    <!-- Main Content -->
+    <main class="wrapper container">
+        <section class="main-section">
+            <h2>Contact</h2>
 
-        <!-- Main Content -->
-        <main>
-            <section id="contact">
-                <header>
-                    <h2>Contact</h2>
-                </header>
+            <hr>
 
-                <hr>
+            <div class="page-content">
+                <div class="form-container">
+                    <form>
+                        Name <br>
+                        <input type="text" placeholder="John Smith">
+                        <br>
+                        Email <br>
+                        <input type="email" placeholder="example@gmail.com">
+                        <br>
+                        Message <br>
+                        <textarea cols="30" rows="10"></textarea>
 
-                <div class="page-content">
-                    <div class="form-container">
-                        <form>
-                            Name <br>
-                            <input type="text" placeholder="John Smith">
-                            <br>
-                            Email <br>
-                            <input type="email" placeholder="example@gmail.com">
-                            <br>
-                            Message <br>
-                            <textarea cols="30" rows="10"></textarea>
-                            
-                            <br>
-                            
-                            <button type="button">Submit</button>
-                        </form>
-                    </div>
+                        <br>
 
+                        <button type="button">Submit</button>
+                    </form>
                 </div>
-            </section>
-        </main>
 
+            </div>
+        </section>
         <!-- div for sticky footer according to css tricks -->
         <div class="push"></div>
-        <!-- div closing wrapper for sticky footer -->
-    </div>
+    </main>
 
     <!-- Footer -->
     <footer>
