@@ -31,8 +31,8 @@
         <section class="main-section">
             <h2>Contact</h2>
 
-            <div class="form-container">
-                <form>
+            <!-- <div class="form-container"> unnecessary -->
+                <!-- <form id="contact-form">
                     Name <br>
                     <input type="text" placeholder="John Smith">
                     <br>
@@ -40,13 +40,23 @@
                     <input type="email" placeholder="example@gmail.com">
                     <br>
                     Message <br>
-                    <textarea cols="30" rows="10"></textarea>
+                    <textarea cols="30" rows="10"></textarea> -->
 
-                    <br>
+                    <!-- <br> -->
+                    <!-- avoid using button -->
+                    <!-- <button type="button">Submit</button> -->
+                <!-- </form> -->
+            <!-- </div> -->
 
-                    <button type="button">Submit</button>
-                </form>
-            </div>
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="John Smith" required>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="example@gmail.com" required>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" required></textarea>
+                <input type="submit">
+            </form>
 
         </section>
         <!-- div for sticky footer according to css tricks -->
