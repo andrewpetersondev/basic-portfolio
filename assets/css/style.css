@@ -18,6 +18,13 @@ body {
   background-image: url("/basic-portfolio/assets/images/floor-tile.png");
 }
 
+.wrapper {
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+  margin: 0 auto -105px;
+}
+
 .container {
   width: 100%;
   max-width: 960px;
@@ -84,17 +91,35 @@ nav a:first-child {
   border-left: 0 none;
 }
 
-/* footer */
+/* sticky footer styling */
+
+/* https://css-tricks.com/snippets/css/sticky-footer/ */
+
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+  margin: 0 auto -105px;
+}
 
 footer,
 .push {
-  height: 50px;
+  height: 105px;
 }
+
+/* end sticky footer styling */
+
+/* footer */
 
 footer {
   height: 50px;
   padding: 25px;
-  /* clear: both; */
+  clear: both;
   background-color: #666666;
   border-top: 8px solid #4aaaa5;
   text-align: center;
