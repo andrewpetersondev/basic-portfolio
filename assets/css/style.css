@@ -37,7 +37,6 @@ h2, h3, p {
 }
 
 p:last-child {
-  /* what is this? */
   margin-bottom: 0;
 }
 
